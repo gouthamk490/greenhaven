@@ -1,0 +1,35 @@
+.cabin-font {
+    font-family: 'Cabin', sans-serif;
+}
+
+.lowercase-button {
+    text-transform: none;
+}
+
+.horizontal-line {
+    border: none;
+    height: 2px;  
+    background: #333; 
+    margin: 0px 0; 
+    width: 50%;
+    margin-top: 0%;
+    margin-left: 20%;
+}
+.vertical-line {
+    position: absolute;
+    top: 40%;
+    left: 25%; 
+    width: 2px;
+    height: 50%;
+    background: #333; 
+    transform: translate(-50%, -50%); 
+  }
+  
+  .cross-container {
+    position: relative;
+  }
+  .centered-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
